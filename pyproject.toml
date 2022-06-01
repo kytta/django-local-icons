@@ -1,0 +1,21 @@
+[tool.poetry]
+version = "0.1.0"
+license = "BSD-3-Clause"
+readme = "README.rst"
+repository = "https://codeberg.org/kytta/django-local-icons"
+keywords = [
+    "django",
+    "icons"
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://codeberg.org/kytta/django-local-icons/issues"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["setuptools", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
